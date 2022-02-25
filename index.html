@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<!-- <nav>
+				<a href="#"><img src="#" alt="logo"></a>
+				<a href="#"></a>
+			</nav> -->
+		</header>
+		<main>
+
+			<section class="temperature-conversion">
+				<div class="fahrenheit">
+					<label for="inputCelsius">Celsius:</label>
+					<input type="number" placeholder="Enter temperature in Celsius" id="inputCelsius" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
+				</div>
+				<div class="celsius">
+					<label for="inputFahrenheit">Fahrenheit:</label>
+					<input type="number" placeholder="Enter temperature in Fahrenheit" id="inputFahrenheit" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
+				</div>
+				<div class="kelvin">
+					<label for="inputKelvin">Kelvin:</label>
+					<input type="number" placeholder="Enter temperature in Kelvin" id="inputKelvin" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
+				</div>
+			</section>
+
+			<section class="length-conversion">
+				<div class="kilometers">
+					<label for="inputKilometers">Kilometeres:</label>
+					<input type="number" id="inputKilometeres" placeholder="Eneter length in Kilometeres" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+				<div class="meters">
+					<label for="inputMeters">Meters:</label>
+					<input type="number" id="inputMeteres" placeholder="Eneter length in Meteres" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+				<div class="centimeters">
+					<label for="inputCentimeters">Centimeters:</label>
+					<input type="number" id="inputCentimeteres" placeholder="Eneter length in Centimeteres" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+				<div class="miles">
+					<label for="inputMiles">Miles:</label>
+					<input type="number" id="inputMiles" placeholder="Eneter length in Miles" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+				<div class="Yards">
+					<label for="inputYard">Yards:</label>
+					<input type="number" id="inputYards" placeholder="Eneter length in Yards" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+				<div class="inches">
+					<label for="inputInches">Inches:</label>
+					<input type="number" id="inputInches" placeholder="Eneter length in Inches" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+				<div class="feet">
+					<label for="inputFeet">Feet:</label>
+					<input type="number" id="inputFeet" placeholder="Eneter length in Feet" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+				</div>
+			</section>
+			
+
+			
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
+
+
+<!-- converter of imperial and metrical units Celsius to Fahrenheit, miles to km, feet to meters, inches to cm 
+	dark mode and light mode maybe theme selector 
+	dropdowns on each of the converting categories
+	try to research how to do a live preview of the conversions?
+	start dark mode and mobile  -->
