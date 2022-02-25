@@ -17,6 +17,11 @@ function temperatureConventer(temperature, source) {
 function weightConventer(length, source) {
 
     if(source == 'inputKilometers') {
-        
+        inputMeters.value = parseFloat(length * 1000).toFixed(2)
+        inputCentimeters.value = parseFloat(length * 100000).toFixed(2)
+        inputMiles.value = parseFloat(length * 0.62137).toFixed(2)
+        inputYards.value = parseFloat(length * 1093.6).toFixed(2)
+        inputInches.value = parseFloat(length * 39370).toFixed(2)
+        inputFeet.value = parseFloat(length * 3280.8).toFixed(2)
     }
 }
