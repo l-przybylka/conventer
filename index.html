@@ -5,18 +5,21 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Blank Template</title>
+		<title>Small conventer</title>
 
 		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header>
-			<!-- <nav>
+			<nav>
 				<a href="#"><img src="#" alt="logo"></a>
-				<a href="#"></a>
-			</nav> -->
+				<img src="./css/lightbulb" alt="lightbulb" id="theme-selector">
+			</nav>
 		</header>
 		<main>
 
@@ -24,15 +27,15 @@
 				<h2>Temperature:</h2>
 				<div class="fahrenheit">
 					<label for="inputCelsius">Celsius:</label>
-					<input type="number" placeholder="Enter temperature in Celsius" id="inputCelsius" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
+					<input type="number" placeholder="" id="inputCelsius" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
 				</div>
 				<div class="celsius">
 					<label for="inputFahrenheit">Fahrenheit:</label>
-					<input type="number" placeholder="Enter temperature in Fahrenheit" id="inputFahrenheit" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
+					<input type="number" placeholder="" id="inputFahrenheit" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
 				</div>
 				<div class="kelvin">
 					<label for="inputKelvin">Kelvin:</label>
-					<input type="number" placeholder="Enter temperature in Kelvin" id="inputKelvin" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
+					<input type="number" placeholder="" id="inputKelvin" value="" oninput="temperatureConventer(this.value, this.id)" onchange="temperatureConventer(this.value, this.id)">
 				</div>
 			</section>
 
@@ -40,31 +43,31 @@
 				<h2>Length:</h2>
 				<div class="kilometers">
 					<label for="inputKilometers">Kilometeres:</label>
-					<input type="number" id="inputKilometers" placeholder="Eneter length in Kilometeres" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<input type="number" id="inputKilometers" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 				<div class="meters">
 					<label for="inputMeters">Meters:</label>
-					<input type="number" id="inputMeters" placeholder="Eneter length in Meteres" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<input type="number" id="inputMeters" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 				<div class="centimeters">
 					<label for="inputCentimeters">Centimeters:</label>
-					<input type="number" id="inputCentimeters" placeholder="Eneter length in Centimeteres" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<input type="number" id="inputCentimeters" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 				<div class="miles">
 					<label for="inputMiles">Miles:</label>
-					<input type="number" id="inputMiles" placeholder="Eneter length in Miles" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<input type="number" id="inputMiles" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 				<div class="yards">
-					<label for="inputYard">Yards:</label>
-					<input type="number" id="inputYards" placeholder="Eneter length in Yards" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<label for="inputYards">Yards:</label>
+					<input type="number" id="inputYards" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 				<div class="inches">
 					<label for="inputInches">Inches:</label>
-					<input type="number" id="inputInches" placeholder="Eneter length in Inches" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<input type="number" id="inputInches" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 				<div class="feet">
 					<label for="inputFeet">Feet:</label>
-					<input type="number" id="inputFeet" placeholder="Eneter length in Feet" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
+					<input type="number" id="inputFeet" placeholder="" value="" oninput="weightConventer(this.value, this.id)" onchange="weightConventer(this.value, this.id)">
 				</div>
 			</section>
 			
