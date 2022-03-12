@@ -1,7 +1,7 @@
 document.getElementById('theme-selector').addEventListener('click', changeTheme)
 
 function changeTheme() {
-    document.querySelector('body').style.background = ('white')
+    document.querySelector('body').classList.toggle('darkMode')
 }
 
 function temperatureConventer(temperature, source) {

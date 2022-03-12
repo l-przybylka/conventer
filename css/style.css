@@ -11,8 +11,7 @@ html {
 }
 
 body {
-     background: #212125;
-     color: #239d60;
+     
      font-family: 'Lato', sans-serif;
 }
 
@@ -40,12 +39,18 @@ div {
 }
 
 ::placeholder {
-     background-color:  #cbf078;
      font-weight: 700;
      font-size: 0.9rem;
 }
 
-#theme-selector {
-     width: 2%;
+#theme-selector,
+.logo {
+     width: 3%;
      height: auto;
+     margin: 2%;
+}
+
+.darkMode {
+     background: #212125;
+     color: #239d60;
 }
